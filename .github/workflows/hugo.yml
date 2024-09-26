@@ -36,8 +36,6 @@ jobs:
       # Checkout the repository, including submodules
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          submodules: recursive   # Fetches all submodules
 
       # Install Hugo extended version (necessary for SCSS/SASS support)
       - name: Install Hugo CLI (Extended)
