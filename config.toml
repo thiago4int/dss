@@ -11,7 +11,7 @@ PygmentsStyle = "monokai"
   pagerSize = 10
 
 rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+copyright = "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License." # This message is only used by the RSS template.
 
 # Google Analytics and Disqus
 [services]
@@ -97,7 +97,7 @@ disableHugoGeneratorInject = false
   # plausibleScriptSource = 'https://plausible.io/js/script.js'
 
   [params.author]
-    name = "Jane Doe"
+    name = "Thiago Gil"
 
   # Custom footer 
   [params.footer]
@@ -160,38 +160,35 @@ disableHugoGeneratorInject = false
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  
   # Addon: Social icons
   #
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/"
+#  [[params.social]]
+#    name = "twitter"
+#    url  = "https://twitter.com/"
 
   [[params.social]]
     name = "email"
-    url  = "mailto:nobody@example.com"
+    url  = "mailto:thiago.gil@linux.com"
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/"
+    url  = "https://github.com/thiago4int"
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/"
+    url  = "https://www.linkedin.com/in/thiago-bittencourt-gil"
 
-  [[params.social]]
-    name = "stackoverflow"
-    url  = "https://www.stackoverflow.com/"
 
 [languages]
   [languages.en]
     weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   [languages.en.params]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = "DataStopShop"
 
-  [languages.fr]
+  [languages.pt-br]
     weight    = 2
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-  [languages.fr.params]
-    subtitle  = "Hello Friend NG Theme"
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  [languages.pt-br.params]
+    subtitle  = "DataStopShop"
 
 [menu]
   [[menu.main]]

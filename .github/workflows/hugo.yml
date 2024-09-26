@@ -1,52 +1,65 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
+# Workflow to build and deploy a Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
 
 on:
+  # Runs on pushes to the default branch (typically 'main')
   push:
     branches:
       - main
+
+  # Allows the workflow to be triggered manually
   workflow_dispatch:
 
+# Set permissions for the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
+# Ensure only one deployment runs at a time
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
+# Default shell for all jobs
 defaults:
   run:
     shell: bash
 
 jobs:
+  # Build job
   build:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.134.2
     steps:
+      # Checkout the repository, including submodules
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive   # Fetches all submodules
+
+      # Install Hugo extended version (necessary for SCSS/SASS support)
       - name: Install Hugo CLI (Extended)
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
+      # (Optional) Install Dart Sass if your project uses SCSS
       - name: Install Dart Sass
         run: sudo snap install dart-sass
 
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          submodules: recursive
-          fetch-depth: 0
-
+      # Setup GitHub Pages
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
+      # Install Node.js dependencies if you have them (optional)
       - name: Install Node.js dependencies (if applicable)
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+        run: |
+          if [ -f package-lock.json ] || [ -f npm-shrinkwrap.json ]; then npm ci; fi
 
+      # Build the Hugo site
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
@@ -58,11 +71,13 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
+      # Upload the generated site to GitHub Pages artifact
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./public  # The 'public' directory is where Hugo outputs the site
 
+  # Deploy job
   deploy:
     environment:
       name: github-pages
@@ -70,6 +85,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
