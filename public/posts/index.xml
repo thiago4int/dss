@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on DataStopShop</title>
-        <link>https://datastopshop.com/posts/</link>
+        <link>http://localhost:1313/posts/</link>
         <description>Recent content in Posts on DataStopShop</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
         <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
-        <atom:link href="https://datastopshop.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>Creating a New Theme</title>
-            <link>https://datastopshop.com/posts/2014/09/creating-a-new-theme/</link>
+            <link>http://localhost:1313/posts/2014/09/creating-a-new-theme/</link>
             <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
             
-            <guid>https://datastopshop.com/posts/2014/09/creating-a-new-theme/</guid>
+            <guid>http://localhost:1313/posts/2014/09/creating-a-new-theme/</guid>
             <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;
 &lt;p&gt;We&amp;rsquo;ll start with creating a new site with a very basic template. Then we&amp;rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.&lt;/p&gt;</description>
@@ -640,9 +640,9 @@ $ cat public/index.html
 &lt;html&gt;
 &lt;body&gt;
 
-    &lt;h1&gt;&lt;a href=&#34;https://datastopshop.com/post/second/&#34;&gt;second&lt;/a&gt;&lt;/h1&gt;
+    &lt;h1&gt;&lt;a href=&#34;http://localhost:1313/post/second/&#34;&gt;second&lt;/a&gt;&lt;/h1&gt;
 
-    &lt;h1&gt;&lt;a href=&#34;https://datastopshop.com/post/first/&#34;&gt;first&lt;/a&gt;&lt;/h1&gt;
+    &lt;h1&gt;&lt;a href=&#34;http://localhost:1313/post/first/&#34;&gt;first&lt;/a&gt;&lt;/h1&gt;
 
 &lt;/body&gt;
 &lt;/html&gt;
@@ -828,10 +828,10 @@ $ vi themes/zafta/layouts/_default/single.html
         
         <item>
             <title>Migrate to Hugo from Jekyll</title>
-            <link>https://datastopshop.com/posts/2014/03/migrate-to-hugo-from-jekyll/</link>
+            <link>http://localhost:1313/posts/2014/03/migrate-to-hugo-from-jekyll/</link>
             <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
             
-            <guid>https://datastopshop.com/posts/2014/03/migrate-to-hugo-from-jekyll/</guid>
+            <guid>http://localhost:1313/posts/2014/03/migrate-to-hugo-from-jekyll/</guid>
             <description>&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.
 With Jekyll, something that looked like&lt;/p&gt;
@@ -984,10 +984,10 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
         
         <item>
             <title>(Hu)go Template Primer</title>
-            <link>https://datastopshop.com/posts/2014/04/hugo-template-primer/</link>
+            <link>http://localhost:1313/posts/2014/04/hugo-template-primer/</link>
             <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
             
-            <guid>https://datastopshop.com/posts/2014/04/hugo-template-primer/</guid>
+            <guid>http://localhost:1313/posts/2014/04/hugo-template-primer/</guid>
             <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt; &lt;a href=&#34;https://golang.org/pkg/html/template/&#34;&gt;html/template&lt;/a&gt; library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of
@@ -1218,7 +1218,7 @@ is to use &ldquo;with&rdquo; instead. With rebinds the context <code>.</code> wi
 and skips the block if the variable is absent:</p>
 <pre tabindex="0"><code>{{with .Site.Params.TwitterUser}}&lt;span class=&#34;twitter&#34;&gt;
 &lt;a href=&#34;https://twitter.com/{{.}}&#34; rel=&#34;author&#34;&gt;
-&lt;img src=&#34;https://datastopshop.com/images/twitter.png&#34; width=&#34;48&#34; height=&#34;48&#34; title=&#34;Twitter: {{.}}&#34;
+&lt;img src=&#34;http://localhost:1313/images/twitter.png&#34; width=&#34;48&#34; height=&#34;48&#34; title=&#34;Twitter: {{.}}&#34;
  alt=&#34;Twitter&#34;&gt;&lt;/a&gt;
 &lt;/span&gt;{{end}}
 </code></pre><p>Finally, if you want to pull &ldquo;magic constants&rdquo; out of your layouts, you can do
@@ -1234,10 +1234,10 @@ so, such as in this example:</p>
         
         <item>
             <title>Getting Started with Hugo</title>
-            <link>https://datastopshop.com/posts/2014/04/getting-started-with-hugo/</link>
+            <link>http://localhost:1313/posts/2014/04/getting-started-with-hugo/</link>
             <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
             
-            <guid>https://datastopshop.com/posts/2014/04/getting-started-with-hugo/</guid>
+            <guid>http://localhost:1313/posts/2014/04/getting-started-with-hugo/</guid>
             <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
 &lt;p&gt;Go to &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;Hugo releases&lt;/a&gt; and download the
 appropriate version for your OS and architecture.&lt;/p&gt;
