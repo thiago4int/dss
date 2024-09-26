@@ -4,36 +4,32 @@
   <url>
     <loc>https://datastopshop.com/posts/2014/09/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://datastopshop.com/fr/posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://datastopshop.com/posts/2014/09/creating-a-new-theme/"
-                />
   </url><url>
     <loc>https://datastopshop.com/posts/2014/03/migrate-to-hugo-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datastopshop.com/categories/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://datastopshop.com/fr/posts/2014/03/migrer-vers-hugo-depuis-jekyll/"
+                hreflang="pt-br"
+                href="https://datastopshop.com/pt-br/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://datastopshop.com/posts/2014/03/migrate-to-hugo-from-jekyll/"
+                href="https://datastopshop.com/categories/"
                 />
+  </url><url>
+    <loc>https://datastopshop.com/posts/2014/09/cr%C3%A9ation-dun-nouveau-th%C3%A8me/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://datastopshop.com/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://datastopshop.com/fr/"
+                hreflang="pt-br"
+                href="https://datastopshop.com/pt-br/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -41,28 +37,21 @@
                 href="https://datastopshop.com/"
                 />
   </url><url>
+    <loc>https://datastopshop.com/categories/hugo/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://datastopshop.com/series/hugo-101/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://datastopshop.com/posts/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://datastopshop.com/fr/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://datastopshop.com/posts/"
-                />
   </url><url>
     <loc>https://datastopshop.com/series/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://datastopshop.com/fr/series/"
+                hreflang="pt-br"
+                href="https://datastopshop.com/pt-br/series/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -75,29 +64,9 @@
   </url><url>
     <loc>https://datastopshop.com/posts/2014/04/hugo-template-primer/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://datastopshop.com/fr/posts/2014/04/introduction-aux-mod%C3%A8les-hugo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://datastopshop.com/posts/2014/04/hugo-template-primer/"
-                />
   </url><url>
-    <loc>https://datastopshop.com/categories/</loc>
+    <loc>https://datastopshop.com/posts/2014/04/d%C3%A9buter-avec-hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://datastopshop.com/fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://datastopshop.com/categories/"
-                />
   </url><url>
     <loc>https://datastopshop.com/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
@@ -107,18 +76,11 @@
   </url><url>
     <loc>https://datastopshop.com/posts/2014/04/getting-started-with-hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://datastopshop.com/fr/posts/2014/04/d%C3%A9buter-avec-hugo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://datastopshop.com/posts/2014/04/getting-started-with-hugo/"
-                />
   </url><url>
     <loc>https://datastopshop.com/tags/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datastopshop.com/categories/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://datastopshop.com/tags/golang/</loc>
@@ -130,12 +92,15 @@
     <loc>https://datastopshop.com/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://datastopshop.com/posts/2014/04/introduction-aux-mod%C3%A8les-hugo/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://datastopshop.com/tags/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://datastopshop.com/fr/tags/"
+                hreflang="pt-br"
+                href="https://datastopshop.com/pt-br/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -148,5 +113,11 @@
   </url><url>
     <loc>https://datastopshop.com/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datastopshop.com/categories/jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datastopshop.com/posts/2014/03/migrer-vers-hugo-depuis-jekyll/</loc>
+    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
 </urlset>
