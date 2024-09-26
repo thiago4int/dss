@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on DataStopShop</title>
-    <link>https://datastopshop.com/categories/</link>
+    <link>https://thiago4int.github.io/dss/categories/</link>
     <description>Recent content in Categories on DataStopShop</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://datastopshop.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://thiago4int.github.io/dss/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
-      <link>https://datastopshop.com/categories/hugo/</link>
+      <link>https://thiago4int.github.io/dss/categories/hugo/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>https://datastopshop.com/categories/hugo/</guid>
+      <guid>https://thiago4int.github.io/dss/categories/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Development</title>
-      <link>https://datastopshop.com/categories/development/</link>
+      <link>https://thiago4int.github.io/dss/categories/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>https://datastopshop.com/categories/development/</guid>
+      <guid>https://thiago4int.github.io/dss/categories/development/</guid>
       <description></description>
     </item>
     <item>
       <title>Go</title>
-      <link>https://datastopshop.com/categories/go/</link>
+      <link>https://thiago4int.github.io/dss/categories/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>https://datastopshop.com/categories/go/</guid>
+      <guid>https://thiago4int.github.io/dss/categories/go/</guid>
       <description></description>
     </item>
     <item>
       <title>Golang</title>
-      <link>https://datastopshop.com/categories/golang/</link>
+      <link>https://thiago4int.github.io/dss/categories/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>https://datastopshop.com/categories/golang/</guid>
+      <guid>https://thiago4int.github.io/dss/categories/golang/</guid>
       <description></description>
     </item>
     <item>
       <title>Jekyll</title>
-      <link>https://datastopshop.com/categories/jekyll/</link>
+      <link>https://thiago4int.github.io/dss/categories/jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>https://datastopshop.com/categories/jekyll/</guid>
+      <guid>https://thiago4int.github.io/dss/categories/jekyll/</guid>
       <description></description>
     </item>
   </channel>

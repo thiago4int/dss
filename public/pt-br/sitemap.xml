@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://datastopshop.com/pt-br/categories/</loc>
+    <loc>https://thiago4int.github.io/dss/pt-br/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://datastopshop.com/categories/"
+                href="https://thiago4int.github.io/dss/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://datastopshop.com/pt-br/categories/"
+                href="https://thiago4int.github.io/dss/pt-br/categories/"
                 />
   </url><url>
-    <loc>https://datastopshop.com/pt-br/</loc>
+    <loc>https://thiago4int.github.io/dss/pt-br/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://datastopshop.com/"
+                href="https://thiago4int.github.io/dss/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://datastopshop.com/pt-br/"
+                href="https://thiago4int.github.io/dss/pt-br/"
                 />
   </url><url>
-    <loc>https://datastopshop.com/pt-br/series/</loc>
+    <loc>https://thiago4int.github.io/dss/pt-br/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://datastopshop.com/series/"
+                href="https://thiago4int.github.io/dss/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://datastopshop.com/pt-br/series/"
+                href="https://thiago4int.github.io/dss/pt-br/series/"
                 />
   </url><url>
-    <loc>https://datastopshop.com/pt-br/tags/</loc>
+    <loc>https://thiago4int.github.io/dss/pt-br/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://datastopshop.com/tags/"
+                href="https://thiago4int.github.io/dss/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://datastopshop.com/pt-br/tags/"
+                href="https://thiago4int.github.io/dss/pt-br/tags/"
                 />
   </url>
 </urlset>
