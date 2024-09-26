@@ -1,0 +1,38 @@
+# Hugo build output
+/public/
+/resources/
+/hugo_stats.json
+
+# Hugo cached files
+hugo_cache/
+
+# Node.js dependencies (if you're using npm or yarn)
+node_modules/
+/package-lock.json
+/yarn.lock
+
+# Sass / SCSS cache
+.sass-cache/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+
+# System and IDE files
+.DS_Store
+Thumbs.db
+
+# OS generated files
+ehthumbs.db
+Desktop.ini
+
+# Logs and debug files
+*.log
+*.swp
+
+# IDE or editor specific files
+.vscode/
+.idea/
