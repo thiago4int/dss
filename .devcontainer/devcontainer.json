@@ -1,0 +1,28 @@
+{
+    "name": "Hugo Development",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",  // Base image for Ubuntu
+    "postCreateCommand": "bash .devcontainer/setup.sh",  // Command to install tools after container creation
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-vscode.node-debug2",  // For Node.js debugging (optional)
+          "golang.go",  // Go extension for Hugo, as Hugo is written in Go
+          "esbenp.prettier-vscode",  // Prettier for formatting (optional)
+          "bierner.markdown-preview-github-styles"  // Nice markdown preview (optional)
+        ]
+      }
+    },
+    "features": {
+      "ghcr.io/devcontainers/features/node:1": {
+        "version": "18"  // Installs Node.js v18 (adjust as needed)
+      }
+    },
+    "forwardPorts": [1313],  // Forward Hugo's default server port
+    "portsAttributes": {
+      "1313": {
+        "label": "Hugo Server",
+        "onAutoForward": "notify"
+      }
+    }
+  }
+  

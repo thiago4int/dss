@@ -11,9 +11,9 @@ PygmentsStyle = "monokai"
   pagerSize = 10
 
 rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License." # This message is only used by the RSS template.
+copyright = "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
 
-# Google Analytics and Disqus
+# Google Analytics and Disqus configuration
 [services]
   [services.GoogleAnalytics]
     id = ""  # Insert your Google Analytics ID here
