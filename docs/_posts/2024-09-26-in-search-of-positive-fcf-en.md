@@ -4,7 +4,9 @@ title: "In Search of Positive FCF: The Agents and Principals Dilemma, Optimizati
 date: 2024-09-26
 categories: [FCF, Optimization, Innovation]
 tags: [Finance, Cloud, Brazil]
+featured_image: /assets/images/brasil-finops-journey.png
 ---
+
 
 In Search of Positive FCF: The Agents and Principals Dilemma, Optimization, and Innovation in Brazil
 
