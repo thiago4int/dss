@@ -1,4 +1,26 @@
-# Assumptions and Motivations Behind the Tool
+# Emerging Markets Applied FinOps Tool
+
+This tool is designed to help analyze and optimize Free Cash Flow (FCF) and other financial metrics. It is provided as an open-source project under the GNU General Public License v3.0 (GPL-3.0).
+
+## Features
+- Financial optimization models
+- Tools for analyzing FCF in cloud computing environments
+- Easy-to-use for educational purposes
+
+## Disclaimer
+This tool is provided for **educational purposes** only. It is **not** intended to be used as an investment tool or for making financial decisions. The author is **not liable** for any losses or damages that arise from the use of this tool.
+
+Please consult a licensed financial professional before making any investment decisions.
+
+## Contributions
+We welcome contributions from the community! If you'd like to contribute to improving this tool, here’s how you can get started:
+
+### How to Contribute:
+1. **Fork** this repository.
+2. **Clone** your fork locally:  
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/dss.git
+
 
 ## Assumptions:
 
